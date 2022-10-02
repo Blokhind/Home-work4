@@ -45,7 +45,7 @@ section {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .main-nav {
   display: flex;
@@ -152,6 +152,7 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -373,12 +374,14 @@ section {
 
 .clients-list-link {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
+  
 }
 
 .clients-icon {
